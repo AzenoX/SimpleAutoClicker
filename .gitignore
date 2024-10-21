@@ -2,4 +2,6 @@
 .idea
 .vscode
 
+# Build
 build/
+autoclick.spec

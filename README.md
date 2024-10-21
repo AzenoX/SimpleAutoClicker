@@ -9,7 +9,7 @@ For every action, you can choose the **left** or the **right** click of the mous
 
 ## Usage
 
-### Installation
+### Run with Python
 
 First, you need to install all the dependencies:
 
@@ -21,6 +21,18 @@ Then run the file
 
 ```
 python autoclick.py
+```
+
+### Run with Executable
+
+You can run the dist/autoclick.exe to run the autoclicker.
+
+### How to build
+
+To build the .exe file, simply execute:
+
+```
+pyinstaller -F autoclick.py
 ```
 
 ### In Depth
